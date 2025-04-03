@@ -574,6 +574,38 @@ SBAF = {
         "cfg_file_night": "ch4_satz_max_15_SUNZ_90_180_tdiff_120_sec_20241204.yaml",
         "cfg_file_twilight": "ch7_satz_max_15_SUNZ_80_89_tdiff_120_sec_20241204.yaml",
         "comment": "NN based on AVHRR and VGAC matchups using all AVHRR heritage channels"
+    },
+    "linear_unknown": {
+        "r06": {
+            "viirs_channel": "M05",
+            "slope": 1,
+            "offset": 0,
+            "comment": "No SBAF, but pretend VIIRS is AVHRR",
+            },
+        "r09": {
+            "viirs_channel": "M07",
+            "slope": 1,
+            "offset": 0,
+            "comment": "No SBAF, but pretend VIIRS is AVHRR",
+        },
+        "tb37": {
+            "viirs_channel": "M12",
+            "slope": 1,
+            "offset": 0,
+            "comment": "No SBAF, but pretend VIIRS is AVHRR"
+        },
+        "tb11": {
+            "viirs_channel": "M15",
+            "slope": 1,
+            "offset": 0,
+            "comment": "No SBAF, but pretend VIIRS is AVHRR"
+        },
+        "tb12": {
+            "viirs_channel": "M16",
+            "slope": 1,
+            "offset":  0,
+            "comment": "No SBAF, but pretend VIIRS is AVHRR"
+        } 
     }
 }
 
